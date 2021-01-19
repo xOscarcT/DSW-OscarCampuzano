@@ -7,15 +7,13 @@
         <meta name="author" content="Oscar Campuzano">
         <meta name="keywords" content="OVI,UNAD,ASIDE,FOOTER,SECTION,ARTICLE">
 
-        <style media="screen">
-          header{
-            color: white;
-            background: black;
+        <style>
+          .parrafo{
+            background: gray;
+            color: black;
           }
-
-          footer{
-            color: white;
-            background: black;
+          *{
+            font-family: Verdana;
           }
         </style>
    </head>
@@ -25,7 +23,7 @@
             <H1>Inicio</H1>
      </header>
 
-     <nav>
+     <nav id="navegacion">
        <ul>
          <a href="https://www.google.com.co/">Item 1</a>
          <a href="https://www.google.com.co/">Item 1</a>
@@ -34,12 +32,13 @@
      </nav>
 
      <section>
-       <article class="">
+       <article id="articulo1">
          <h1>Primer tema</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
        </article>
-       <article class="">
+       <article id="articulo2">
          <h1>Segundo tema</h1>
+         <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
        </article>
      </section>
 
