@@ -1,15 +1,23 @@
-*{
-    justify-content: center;
-    font-family: Verdana;
-  }
-
 header{
+    justify-content: center;
     padding-top: 10px;
     padding-bottom: 0px;
-
+    display: flex;
 }
+header div{
+    border: 1px solid black;
+}
+
+.Titulos  {
+  width: 500px;
+  text-shadow: 2px 2px 10px gray;
+  font-family: Franklin Gothic Heavy;
+  color: black;
+  background-color: #bdc3c7
+}
+
 body{
-    background-color: #3498db;
+    background-color: #005883;
     text-align: center;
 }
 
@@ -20,7 +28,7 @@ body{
 
 .menu{
     margin: 0px;
-    justify-content: center;
+    justify-content: right;
 }
 
 .menu button{
@@ -35,6 +43,8 @@ body{
     border: none;
     align-items: right;
     display: block;
+    justify-content: right;
+    font-family: Candara;
 }
 
 .menu button:hover{
@@ -60,4 +70,19 @@ body{
     border: 1px solid black;
     background-color: white;
     justify-content: center;
+}
+
+.bloque H2{
+    font-family: Franklin Gothic Heavy;
+}
+
+.bloque p{
+  font-family: Franklin Gothic Book;
+}
+
+.Objetivos{
+  text-align: center;
+  justify-content: center;
+  aling-items: center;
+  display: block;
 }
