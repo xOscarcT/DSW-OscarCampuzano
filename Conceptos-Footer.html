@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+        <meta charset="utf-8"/>
+        <title>Conceptos</title>
+        <meta name="description" content="OVI Fase 3 Construccion de un OVI HTML5 y CSS3"/>
+        <meta name="author" content="Oscar Campuzano">
+        <meta name="keywords" content="OVI,UNAD,ASIDE,FOOTER,SECTION,ARTICLE">
+        <link rel="stylesheet" href="styles.css">
+   </head>
+
+   <header>
+
+     <div id="imagen1">
+        <img src="images/LogoUNAD.png" style="width:200px;height:200px;">
+     </div>
+
+     <div id="Titulos">
+       <H1>OVI</H1>
+       <H2>Aside, Footer, Section, Article</H2>
+       <H3>¿Que son?</H3>
+     </div>
+
+     <div id="otro">
+
+     </div>
+
+  </header>
+
+   <body>
+
+    <div class="principal">
+
+      <div class="menu">
+        <ul class="nav">
+          <li><a href="Inicio.html"><button class="botones">Inicio</button></a></li>
+          <li><a><button class="botones">Conceptos</button></a>
+            <ul class="subnav">
+              <li><a href="Conceptos-Aside.html"><button>Aside</button></a></li>
+              <li><a href="Conceptos-Footer.html"><button>Footer</button></a></li>
+              <li><a href="Conceptos-Section.html"><button>Section</button></a></li>
+              <li><a href="Conceptos-Article.html"><button>Article</button></a></li>
+            </ul>
+          </li> 
+          <li><a href="Recursos.html"><button class="botones">Recursos</button></a></li>
+          <li><a href="Autoevaluacion.html"><button class="botones">Autoevaluación</button></a>
+            <ul class="subnav">
+              <li><a href="#"><button>Opción 1</button></a></li>
+              <li><a href="#"><button>Opción 2</button></a></li>
+            </ul>
+          </li>
+          <li><a href="Autor.html"><button class="botones">Autor</button></a></li>
+        </ul>
+      </div>
+
+      <div class="bloque">
+
+        <H2>Conceptos - Etiqueta Footer</H2>
+        <section>
+          <p>
+            Esta etiqueta nos funciona para establecer un pie de nuestro documento de pagina o parte de el, es comun usarlo siempre al final del documento
+            pero no es obligatoria esa ubicacion, puede ser al final de un articulo, de una seccion o en este caso de mi pagina al final de este texto la letra cursiva
+            con la referencia bibliografica de donde redacte esta informacion, normalmente la informacion o objetos entre esta etiqueta son datos del autor, licencias, firmas etc. 
+            Por ejemplo en esta pagina tambien hay otra etiqueta footer al final de el cuerpo de la pagina, que contiene mi nombre, licencia Creative Commons y el titulo del sitio OVI. 
+          </p>
+          <footer>
+            <p class="referencias">
+              <bold>Texto redactado de:</bold> MDN contributors. (2019, May 23). footer - HTML: Lenguaje de etiquetas de hipertexto | MDN. 
+              Retrieved February 10, 2021, from https://developer.mozilla.org/es/docs/Web/HTML/Elemento/footer
+            </p>
+          </footer>
+          <div class="polaroid">
+            <img src="images/footer.jpg" class="imgexample" style="width: 100%;">
+            <div class="container">
+              <p>Ubicación de la etiqueta Footer</p>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <p class="referencias">
+            <bold>Imagen tomada de:</bold> Barrera, A. (2015). etiquetas-semanticas-html5.jpg (600×671). 
+            Retrieved February 10, 2021, from https://www.anerbarrena.com/wp-content/uploads/2015/05/etiquetas-semanticas-html5.jpg
+          </p>
+        </footer>
+
+      </div>
+
+      <div class="feed">
+        <aside>
+          <a class="twitter-timeline" data-lang="es" data-height="400" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+      </div>
+
+    </div>
+   </body>
+
+   <footer class="licencia">
+     <p>OVI 2021 - OscarcT - Creative Commons
+  </footer>
+
+</html>
