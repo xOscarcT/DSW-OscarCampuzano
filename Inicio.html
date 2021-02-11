@@ -10,17 +10,19 @@
    </head>
 
    <header>
-     <div>
-        <img src="LogoUNAD.png" style="max-width:100%;width:auto;height:auto;">
+
+     <div id="imagen1">
+        <img src="images/LogoUNAD.png" style="width:200px;height:200px;">
      </div>
 
-     <div class="Titulos">
+     <div id="Titulos">
        <H1>OVI</H1>
        <H2>Aside, Footer, Section, Article</H2>
        <H3>¿Que son?</H3>
      </div>
 
-     <div>
+     <div id="otro">
+
      </div>
 
   </header>
@@ -30,29 +32,43 @@
     <div class="principal">
 
       <div class="menu">
-          <ul>
-            <button class="botones">Inicio</button>
-            <button class="botones">Conceptos</button>
-            <button class="botones">Recursos</button>
-            <button class="botones">Autoevaluacion</button>
-            <button class="botones">Autor</button>
-          </ul>
+        <ul class="nav">
+          <li><a href="Inicio.html"><button class="botones">Inicio</button></a></li>
+          <li><a><button class="botones">Conceptos</button></a>
+            <ul class="subnav">
+              <li><a href="Conceptos-Aside.html"><button>Aside</button></a></li>
+              <li><a href="Conceptos-Footer.html"><button>Footer</button></a></li>
+              <li><a href="Conceptos-Section.html"><button>Section</button></a></li>
+              <li><a href="Conceptos-Article.html"><button>Article</button></a></li>
+            </ul>
+          </li> 
+          <li><a href="Recursos.html"><button class="botones">Recursos</button></a></li>
+          <li><a href="Autoevaluacion.html"><button class="botones">Autoevaluación</button></a>
+            <ul class="subnav">
+              <li><a href="#"><button>Opción 1</button></a></li>
+              <li><a href="#"><button>Opción 2</button></a></li>
+            </ul>
+          </li>
+          <li><a href="Autor.html"><button class="botones">Autor</button></a></li>
+        </ul>
       </div>
 
       <div class="bloque">
         <H2>Objetivo general</H2>
         <p>Conocer y entender el uso de las etiquetas Aside, Footer, Section y Article en el lenguaje HTML5.</p>
         <H2>Objetivos especificos</H2>
-        <ul class="Objetivos">
-        <li>Comprender la ubicacion y la estructura de cada etiqueta.</li>
-        <li>Entender en que situaciones se deben usar cada etiqueta.</li>
-        <li></li>
+          <li>Comprender la ubicacion y la estructura de cada etiqueta.</li>
+          <li>Entender en que situaciones se deben usar cada etiqueta.</li>
+          <li>Implementar en el codigo HTML de esta página las estiquetas ya mencionadas.</li>
+        <p></p>
+        <p>En esta pagina realizaremos un estudio corto y consiso sobre las etiquetas Aside, Footer, Section, Article. Atraves de contenido multimedia y redacciones
+          de los temas.
+        </p>
 
-        </ul>
       </div>
 
-      <div class="feed">
-        <aside>
+      <div>
+        <aside class ="feed">
           <a class="twitter-timeline" data-lang="es" data-height="400" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </aside>
       </div>
@@ -60,8 +76,8 @@
     </div>
    </body>
 
-   <footer>
-    OVI 2021 - OscarcT
-  </footer>
+   <footer class="licencia">
+    <p>OVI 2021 - OscarcT - Creative Commons
+   </footer>
 
 </html>
