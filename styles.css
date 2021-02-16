@@ -199,6 +199,13 @@ ul, ol{
     text-align: center;
 }
 
+.referencias2{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
 article{
     font-style: normal;
     justify-content: center;
