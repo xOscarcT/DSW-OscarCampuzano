@@ -18,10 +18,8 @@ header{
     -webkit-text-stroke: 0.5px black;
 }
 #imagen1{
-    float: left;
     background-color: #005883;
     justify-content: center;
-    margin-left: -155px;
     margin-right: 70px;
 }
 #ImagenI{
