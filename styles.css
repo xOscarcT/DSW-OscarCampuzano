@@ -3,7 +3,7 @@
 }
 
 .feed{
-    padding-left: 10px;
+    padding-left: 0px;
     padding-right: 10px;
 }
 header{
@@ -24,7 +24,10 @@ header{
     margin-left: -155px;
     margin-right: 70px;
 }
-
+#ImagenI{
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 #Titulos{
     border-radius: 20px;
     width: 500px;
@@ -53,14 +56,18 @@ body{
 }
 
 .menu{
-    margin: 0px;
-    padding-right: 10px;
+    z-index: 1;
+    position: static;
+    margin-right: 0px;
+    padding-right: 15px;
     display: flex;
     justify-content: right;
     text-align: right;
 }
 
-.menu button{
+.menu a{
+    background-image: linear-gradient(#003d5c,  #005883);
+    border-radius: 5px;
     width: 100%;
     text-align: right;
     display: flex;
@@ -68,38 +75,87 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-size: 20px;
     background-color: #bdc3c7;
+    color:white;
     padding: 15px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     border: none;
     display: block;
     font-family: Candara;
     float: inline-end;
     align-items: right;
+    text-decoration: none;
 }
-.menu li button{
+
+.menu li a{
     text-align: right;
 }
 
-.menu button:hover{
+.menu a:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #bdc3c7;
     cursor: pointer;
     transition: background-color 0.5s;
 }
 
-.menu button:active{
+.menu a:active{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-.menu button:focus{
+.menu a:focus{
     background-color: whitesmoke;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
+.menu ul a:link {
+    text-decoration: none;
+  }
+  
+.menu a:visited {
+    text-decoration: none;
+  }
+  
+.menu a:hover {
+    text-decoration: underline;
+  }
+  
+.menu a:active {
+    text-decoration: underline;
+  }
+
+.subnav{
+    width: 76%;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    padding-left: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.nav > li {
+    padding-left: 0;
+    float: bottom;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 2px;
+}
+
+.nav li:hover > ul{
+    width: 8%;
+    display:block;
+}
+
 .bloque{
+    border-radius: 5px;
     height: auto;
     width: 1000px;
     border: 1px solid black;
@@ -109,6 +165,9 @@ body{
     text-align: center;
     padding: 10px;
     display: block;
+}
+.bloque ul li{
+    list-style-type: square;
 }
 
 .bloque H2{
@@ -135,56 +194,6 @@ body{
 
 .bloque li{
     font-weight: normal;
-}
-ul{
-    list-style-type: none;
-    text-align: right;
-    width: 100%;
-}
-
-a:link {
-    text-decoration: none;
-  }
-  
-a:visited {
-    text-decoration: none;
-  }
-  
-a:hover {
-    text-decoration: underline;
-  }
-  
-a:active {
-    text-decoration: underline;
-  }
-
-.subnav{
-    width: 76%;
-}
-ul, ol{
-    list-style: none;
-}
-
-.nav li a{
-    padding-left: 0;
-    text-decoration: none;
-    display: block;
-}
-
-.nav > li {
-    padding-left: 0;
-    float: bottom;
-}
-
-.nav li ul{
-    display: none;
-    position: absolute;
-    min-width: 30px;
-}
-
-.nav li:hover > ul{
-    width: 10%;
-    display:block;
 }
 
 .bloque p{
@@ -286,3 +295,14 @@ div.polaroid {
     padding-bottom: 5px;
     margin-top: 10px;
   }
+
+  #download{
+      display: flex;
+      margin-left: 44%;
+      width: 100px;
+      height: 100px;
+  }
+
+  #download:hover{
+      transform: scale(1.2,1.2);
+}
