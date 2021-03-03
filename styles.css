@@ -327,3 +327,8 @@ div.polaroid {
   #download:hover{
       transform: scale(1.2,1.2);
 }
+
+#Juego{
+    width: 800px;
+    height: 600px;
+}
