@@ -332,3 +332,7 @@ div.polaroid {
     width: 800px;
     height: 600px;
 }
+
+.polaroid3{
+    display: block;
+}
